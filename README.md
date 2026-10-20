@@ -216,36 +216,62 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
 <p>
   33. Click on the bubble "Add a new forest" and enter any domain name which must end with ".com", e.g., mydomain.com. Click Next.
 </p>
+<br />
 <p>
   <img width="350" height="254" alt="Screenshot 2026-10-09 092510" src="https://github.com/user-attachments/assets/0b31ba4c-80c8-4c89-bab0-c78f91f0757d" />
 </p>
 <p>
   34. Enter a password for the Directory Services Restore Mode. Ignore other options. Click Next.
 </p>
+<br />
 <p>
   <img width="353" height="259" alt="Screenshot 2026-10-09 092531" src="https://github.com/user-attachments/assets/e755b178-9e1c-48d1-b3cc-3b19d4de805f" />
 </p>
 <p>
   35. Leave the "Create DNS Delegation" box unchecked and click Next
 </p>
+<br />
 <p>
   <img width="702" height="421" alt="Screenshot 2026-10-09 092618" src="https://github.com/user-attachments/assets/1cec58b4-b229-4f6d-be75-492d7db495f9" />
 </p>
 <p>
   36. Click Next until the Installation tab and click Install. The server will restart.
 </p>
+<br />
 <p>
   <img width="303" height="368" alt="Screenshot 2026-10-09 094136" src="https://github.com/user-attachments/assets/65e4fa2e-4c16-458f-a8ed-b32227ed5273" />
 </p>
 <p>
+  37. Use Remote Desktop Connection on your Personal Computer to connect to the client and use the administrator username/password created earlier.
+</p>
+<br />
+<p>
   <img width="552" height="428" alt="Screenshot 2026-10-09 100215" src="https://github.com/user-attachments/assets/ae953daa-ea25-4b0e-a6b0-db644bf69964" />
 </p>
+<p>
+  38. Navigate to Settings by searching in the Windows Start menu or otherwise. In Settings search for "Rename this PC", click Change and in the Domain box enter the name of the Domain created earlier
+</p>
+<br />
 <p>
   <img width="156" height="200" alt="Screenshot 2026-10-09 100617" src="https://github.com/user-attachments/assets/13c3ddda-5532-4092-848d-ffb333a7d6d2" />
 </p>
 <p>
+  39. Click OK and enter the username/password for the Domain Controller's Administrator Account.
+</p>
+<br />
+<p>
   <img width="555" height="428" alt="Screenshot 2026-10-09 101024" src="https://github.com/user-attachments/assets/1a30ae7a-3987-4a0e-aaa1-a4897b7b9fcc" />
 </p>
 <p>
-<img width="899" height="491" alt="Screenshot 2026-10-09 101832" src="https://github.com/user-attachments/assets/7fb32bbc-f1ea-4592-814a-4118d3205df4" />
+  40. Search for Remote Desktop in the Client's system settings and click on "Select users that can remotely access this PC". Click Add, Enter Domain Users and click on Check Names. Click OK to authorize all users to log in to the domain from the client VM. You can use "Domain Admins" or any other group if you wish to authorize one group rather than all users. In order to log in to the client with a non-local Domain user, prefix the username with the Domain name + '\'. e.g., Newsdomain.com\Dexter.
 </p>
+<br />
+<p>
+<img width="300" height="368" alt="Screenshot 2026-10-20 113855" src="https://github.com/user-attachments/assets/b2c2e6a9-adbc-4526-941d-9bf4ade08532" />
+</p>
+<br />
+<p>
+  Any authorized user can access the server from any client after it has been added to the domain. This concludes the tutorial.
+</p>
+<br />
+
