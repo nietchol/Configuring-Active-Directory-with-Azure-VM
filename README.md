@@ -44,34 +44,40 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
 <img width="959" height="438" alt="Screenshot 2026-10-05 152628" src="https://github.com/user-attachments/assets/18e416f5-afdb-4d87-ac3a-9da67e9432c4" />
 </p>
 <p>
+  6. Under Resource group, use the recently created resource group and choose a memorable name for a domain controller. Under Region, use the same region as the resource group.
+</p>
+<p>
 <img width="959" height="437" alt="Screenshot 2026-10-05 152707" src="https://github.com/user-attachments/assets/295ad966-1336-4fc5-86ff-9a1be92c33d3" />
 </p>
 <p>
-  6. Under Resource group, use the recently created resource group and choose a memorable name for a domain controller. Under Region, use the same region as the resource group. For the image, select a Windows Server. Here, I select the 2022 Datacenter edition. Other versions will have slightly different features. For size, select any available processor.
+ For the image, select a Windows Server. Here, I select the 2022 Datacenter edition. Other versions will have slightly different features. For size, select any available processor.
 </p>
 <br />
 <p>
 <img width="956" height="408" alt="Screenshot 2026-10-05 152903" src="https://github.com/user-attachments/assets/5d79b958-af34-45a8-9919-1866db25ce9a" />
 </p>
 <p>
+    7. Select a username and password for the Administrator account on the server.
+</p>
+<p>
 <img width="959" height="443" alt="Screenshot 2026-10-05 153102" src="https://github.com/user-attachments/assets/bf60f4f4-db1f-47c4-8183-426eb1270748" />
 </p>
 <p>
-  7. Select a username and password for the Administrator account on the server.
+   8. Allow public inbound port 3389 for remote desktop access and check the box to use an existing License. Note that the network name under the network section will be used for the client VM as well. Now click "Review + create". Other input bars and sections can be left as default or blank.
 </p>
 <br />
 <p>
 <img width="959" height="440" alt="Screenshot 2026-10-05 211156" src="https://github.com/user-attachments/assets/d138d630-5424-4044-89db-7ae7de16f07b" />
 </p>
 <p>
-  8. Allow public inbound port 3389 for remote desktop access and check the box to use an existing License. Note that the network name under the network section will be used for the client VM as well. Now click "Review + create". Other input bars and sections can be left as default or blank.
+  9. After deployment is complete, navigate to Virtual Machines (VM) or search for Virtual Machines in the search bar. Click Create.
 </p>
 <br />
 <p>
 <img width="959" height="435" alt="Screenshot 2026-10-05 211529" src="https://github.com/user-attachments/assets/87566511-4b01-4e07-9251-c713ae4a4d36" />
 </p>
 <p>
-  9. After deployment is complete, navigate to Virtual Machines (VM) or search for Virtual Machines in the search bar. Click Create.
+10. For resource group and region, use the newly created resource group and its region.
 </p>
 <p>
   <img width="959" height="436" alt="Screenshot 2026-10-05 211547" src="https://github.com/user-attachments/assets/da565bff-c5af-4c8c-87c5-c30a66933717" />
