@@ -83,10 +83,19 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
   <img width="959" height="436" alt="Screenshot 2026-10-05 211547" src="https://github.com/user-attachments/assets/da565bff-c5af-4c8c-87c5-c30a66933717" />
 </p>
 <p>
+  11. Choose a memorable name for the client VM. Select Windows 11 Pro and any available processor for the Image and size. Also choose a username/password for the Administrator account.
+</p>
+<p>
   <img width="958" height="436" alt="Screenshot 2026-10-05 211615" src="https://github.com/user-attachments/assets/b8b1b580-7b27-4ed0-86e2-c5dac9b19c3a" />
 </p>
 <p>
+  12. Allow inbound port 3389 and check the box under licensing.
+</p>
+<p>
   <img width="959" height="438" alt="Screenshot 2026-10-05 211703" src="https://github.com/user-attachments/assets/d49c7a3c-5842-4b5e-8f6e-9a617d1cf201" />
+</p>
+<p>
+  13. Navigate to the Networking tab and select the same virtual network and subnet as the other VM. Then click "Review + create".
 </p>
 <p>
   <img width="959" height="438" alt="Screenshot 2026-10-05 212412" src="https://github.com/user-attachments/assets/4124644c-b62f-49b5-8d14-a80b58618a78" />
