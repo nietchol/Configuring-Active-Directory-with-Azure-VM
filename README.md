@@ -143,26 +143,53 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
   <img width="959" height="437" alt="Screenshot 2026-10-05 213257" src="https://github.com/user-attachments/assets/27261f76-dcb2-433c-96b7-30ea0f86be82" />
 </p>
 <p>
+  21. Navigate back to the VM page and restart the Client. Click on the client VM link and click Restart near the top.
+</p>
+<br />
+<p>
   <img width="958" height="440" alt="Screenshot 2026-10-05 220232" src="https://github.com/user-attachments/assets/c5222abc-1145-4b29-be70-e6cbde53ec8e" />
+  <p>
+    22.On the VM page, copy the Domain Controller's private IP address.
+  </p>
+  <br />
 </p>
 <p>
   <img width="953" height="461" alt="Screenshot 2026-10-05 220302" src="https://github.com/user-attachments/assets/d13863ae-8f1e-46d1-97b8-4bb53514a926" />
 </p>
 <p>
+  23.Search for Remote Desktop Connection on the Windows Start menu and run the program.
+</p>
+<br />
+<p>
   <img width="302" height="368" alt="Screenshot 2026-10-19 142926" src="https://github.com/user-attachments/assets/698bdab1-40ef-4ce9-9ef4-f7c82c4ee7fc" />
 </p>
+<p>
+  24. On the Remote Desktop Connection app, click on More options and paste the IP address as the Computer name. Enter the same username you used as the Administrator account for the Domain Controller. Click Connect and enter the password when prompted.
+</p>
+<br />
 <p>
   <img width="837" height="496" alt="Screenshot 2026-10-09 171527" src="https://github.com/user-attachments/assets/30fd3b5f-ec21-42cc-bb51-8c0f53db952b" />
 </p>
 <p>
+  25. On the Dashboard, click on Add roles and features under Configure this local server.
+</p>
+<p>
   <img width="833" height="496" alt="Screenshot 2026-10-09 171540" src="https://github.com/user-attachments/assets/dc3f21f2-a294-4009-9280-7e964977a700" />
 </p>
+<p>
+  26-27. Click Next on the first 2 steps and select your server name on the Server Selection tab. Click Next.
+</p>
+<br />
 <p>
   <img width="830" height="482" alt="Screenshot 2026-10-09 171557" src="https://github.com/user-attachments/assets/a8014d7f-600d-487e-a907-6ab714be7341" />
 </p>
 <p>
   <img width="361" height="256" alt="Screenshot 2026-10-09 171618" src="https://github.com/user-attachments/assets/3e79e8c3-4684-47d7-af95-bb789076383e" />
 </p>
+<p>
+  28. Check the "Active Directory Domain Services" box and accept to install associated apps/services.
+</p>
+<br />
 <p>
   <img width="362" height="257" alt="Screenshot 2026-10-09 171631" src="https://github.com/user-attachments/assets/72d0a851-d697-4aa3-a1de-a2592f40a539" />
 </p>
@@ -173,22 +200,39 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
   <img width="361" height="258" alt="Screenshot 2026-10-09 171650" src="https://github.com/user-attachments/assets/780dd917-1891-4283-b88e-8a121252c10b" />
 </p>
 <p>
-  <img width="895" height="488" alt="Screenshot 2026-10-09 092239" src="https://github.com/user-attachments/assets/a2920d50-e071-4db5-8b93-7fd26c783c61" />
+  29-31. Click Next until the Confirmation tab, then click Install.
 </p>
+<br />
 <p>
   <img width="833" height="475" alt="Screenshot 2026-10-09 092256" src="https://github.com/user-attachments/assets/0d9b8cb5-4a84-4ac4-a7e7-8b5ab38cb222" />
 </p>
 <p>
+  32. Hover/click on the yellow flag in the top-right corner and click "Promote this server to a domain"
+</p>
+<br />
+<p>
   <img width="350" height="256" alt="Screenshot 2026-10-09 092452" src="https://github.com/user-attachments/assets/396410f9-5c5f-40fb-aeed-3d57e8f6f1d2" />
+</p>
+<p>
+  33. Click on the bubble "Add a new forest" and enter any domain name which must end with ".com", e.g., mydomain.com. Click Next.
 </p>
 <p>
   <img width="350" height="254" alt="Screenshot 2026-10-09 092510" src="https://github.com/user-attachments/assets/0b31ba4c-80c8-4c89-bab0-c78f91f0757d" />
 </p>
 <p>
+  34. Enter a password for the Directory Services Restore Mode. Ignore other options. Click Next.
+</p>
+<p>
   <img width="353" height="259" alt="Screenshot 2026-10-09 092531" src="https://github.com/user-attachments/assets/e755b178-9e1c-48d1-b3cc-3b19d4de805f" />
 </p>
 <p>
+  35. Leave the "Create DNS Delegation" box unchecked and click Next
+</p>
+<p>
   <img width="702" height="421" alt="Screenshot 2026-10-09 092618" src="https://github.com/user-attachments/assets/1cec58b4-b229-4f6d-be75-492d7db495f9" />
+</p>
+<p>
+  36. Click Next until the Installation tab and click Install. The server will restart.
 </p>
 <p>
   <img width="303" height="368" alt="Screenshot 2026-10-09 094136" src="https://github.com/user-attachments/assets/65e4fa2e-4c16-458f-a8ed-b32227ed5273" />
