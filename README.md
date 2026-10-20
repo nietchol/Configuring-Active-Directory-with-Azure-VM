@@ -1,4 +1,18 @@
 # Configuring-Active-Directory-with-Azure-VM
+<h1>Configuring-Active-Directory-with-Azure-VM</h1>
+This tutorial outlines the prerequisites and installation of Active Directory Services with Azure Virtual Machines<br />
+
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines)
+- Remote Desktop
+- Active Directory Domain Services
+
+<h2>Operating Systems Used </h2>
+
+-Windows Server 2022 Datacenter: Azure Edition Hotpatch 
+-Windows 11 Pro, version 25H2
+
 <img width="959" height="440" alt="Screenshot 2026-10-05 151244" src="https://github.com/user-attachments/assets/aee660dd-9f4a-40c3-9e5d-515969507612" />
 <img width="959" height="440" alt="Screenshot 2026-10-05 152147" src="https://github.com/user-attachments/assets/d0e5ff5e-97fa-490e-a9c6-70a13d938c42" />
 <img width="959" height="437" alt="Screenshot 2026-10-05 152254" src="https://github.com/user-attachments/assets/286f43f4-67b6-4f0c-97bc-08ce7862ba3b" />
