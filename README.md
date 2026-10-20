@@ -101,22 +101,43 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
   <img width="959" height="438" alt="Screenshot 2026-10-05 212412" src="https://github.com/user-attachments/assets/4124644c-b62f-49b5-8d14-a80b58618a78" />
 </p>
 <p>
+  14. Now we need to make the private IP address remain static. Click on the Domain Controller on the VM page
+</p>
+<p>
   <img width="958" height="438" alt="Screenshot 2026-10-05 212713" src="https://github.com/user-attachments/assets/797f8a7c-7648-42e9-95f8-6b71a4ba4e0f" />
+</p>
+<p>
+  15.Click on Network settings on the Navigation bar.
 </p>
 <p>
   <img width="955" height="440" alt="Screenshot 2026-10-05 212734" src="https://github.com/user-attachments/assets/7c8d996e-68d5-468a-bf4c-0a95f3fbb5a6" />
 </p>
 <p>
+  16. Click on the IP Configurations link near the top.
+</p>
+<p>
   <img width="952" height="429" alt="Screenshot 2026-10-05 212749" src="https://github.com/user-attachments/assets/fbc63736-ee48-4530-81b3-7667973a2287" />
+</p>
+<p>
+   17. Click on ipconfig1 link in the table. 
 </p>
 <p>
   <img width="959" height="440" alt="Screenshot 2026-10-05 212921" src="https://github.com/user-attachments/assets/12684dba-7d96-4a54-ab50-104b078a603b" />
 </p>
 <p>
+  18. Click on the static bubble under Private IP address settings and click Save. We will use the Domain Controller as the client's DNS server. A server with a static, private IP address will retain the same address, so we will not have to update the client's DNS server address every time the server's address changes (as it would when restarting a server configured with dynamic IP addressing). Copy the private IP address but do not edit it.
+</p>
+<p>
   <img width="958" height="437" alt="Screenshot 2026-10-05 213103" src="https://github.com/user-attachments/assets/29419d4e-3674-468d-a273-cb723f39b158" />
 </p>
 <p>
+  19. Navigate to the client's IP Configurations page and click on DNS Servers under Settings on the Navigation bar.
+</p>
+<p>
   <img width="958" height="436" alt="Screenshot 2026-10-05 213211" src="https://github.com/user-attachments/assets/c5412d0f-202d-4cd1-bbf2-c42f71918816" />
+</p>
+<p>
+  20. Click the Custom bubble and paste the server's private IP address. Click Apply.
 </p>
 <p>
   <img width="959" height="437" alt="Screenshot 2026-10-05 213257" src="https://github.com/user-attachments/assets/27261f76-dcb2-433c-96b7-30ea0f86be82" />
