@@ -132,7 +132,7 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
   <img width="959" height="440" alt="Screenshot 2026-10-05 212921" src="https://github.com/user-attachments/assets/12684dba-7d96-4a54-ab50-104b078a603b" />
 </p>
 <p>
-  18. Click on the static bubble under Private IP address settings and click Save. We will use the Domain Controller IP address as the client's DNS server. A server with a static, private IP address will retain the same address, so we will not have to update the client's DNS server address every time the server's address changes -as it would when restarting a server configured with dynamic IP addressing. Copy the private IP address but do not edit it.
+  18. Click on the static bubble under Private IP address settings and click Save. We will use the Domain Controller's IP address as the client's DNS server. A server with a static, private IP address will retain the same address, so we will not have to update the client's DNS server address every time the server's address changes - as it would when restarting a server configured with dynamic IP addressing. Copy the private IP address but do not edit it.
 </p>
 <p>
   <img width="958" height="437" alt="Screenshot 2026-10-05 213103" src="https://github.com/user-attachments/assets/29419d4e-3674-468d-a273-cb723f39b158" />
