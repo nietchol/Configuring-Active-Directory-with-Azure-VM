@@ -18,40 +18,46 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
 -Microsoft Azure account and subscription
 
 -Credit card for subscription, required to use Azure's services.
-<p></p>
+<br />
 <p>
 <img width="959" height="440" alt="Screenshot 2026-10-05 151244" src="https://github.com/user-attachments/assets/aee660dd-9f4a-40c3-9e5d-515969507612" />
 </p>
 <p>
   1. Sign up for Microsoft Azure. Navigate to resource groups or search for resource groups in the search bar.
 </p>
+<br />
 <p>
 <img width="959" height="440" alt="Screenshot 2026-10-05 152147" src="https://github.com/user-attachments/assets/d0e5ff5e-97fa-490e-a9c6-70a13d938c42" />
 </p>
 <p>
-  2. Click Create, input a name and then click "Review + create". Disregard the other options but remember the name and region.
+  2. Click Create.
 </p>
 <br />
 <p>
 <img width="959" height="437" alt="Screenshot 2026-10-05 152254" src="https://github.com/user-attachments/assets/286f43f4-67b6-4f0c-97bc-08ce7862ba3b" />
 </p>
 <p>
+  3. Input a name and then click "Review + create". Disregard the other options but remember the name and region.
+<p>
+<br />
 <img width="959" height="438" alt="Screenshot 2026-10-05 152459" src="https://github.com/user-attachments/assets/34b286be-fc28-4b39-b157-c73c9b807ab6" />
 </p>
 <p>
   4. Navigate to Virtual Machines (VM) or search for Virtual Machines in the search bar. On the VM page, click Create. This will be the domain controller
 </p>
+<br />
 <p>
 <img width="959" height="438" alt="Screenshot 2026-10-05 152628" src="https://github.com/user-attachments/assets/18e416f5-afdb-4d87-ac3a-9da67e9432c4" />
 </p>
 <p>
-  6. Under Resource group, use the recently created resource group and choose a memorable name for a domain controller. Under Region, use the same region as the resource group.
+  5. Under Resource group, use the recently created resource group and choose a memorable name for a domain controller. Under Region, use the same region as the resource group.
 </p>
+<br /> 
 <p>
 <img width="959" height="437" alt="Screenshot 2026-10-05 152707" src="https://github.com/user-attachments/assets/295ad966-1336-4fc5-86ff-9a1be92c33d3" />
 </p>
 <p>
- For the image, select a Windows Server. Here, I select the 2022 Datacenter edition. Other versions will have slightly different features. For size, select any available processor.
+6. For the image, select a Windows Server. Here, I select the 2022 Datacenter edition. Other versions will have slightly different features. For size, select any available processor.
 </p>
 <br />
 <p>
@@ -84,7 +90,7 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
   <img width="959" height="436" alt="Screenshot 2026-10-05 211547" src="https://github.com/user-attachments/assets/da565bff-c5af-4c8c-87c5-c30a66933717" />
 </p>
 <p>
-  11. Choose a memorable name for the client VM. Select Windows 11 Pro and any available processor for the Image and size. Also choose a username/password for the Administrator account.
+  11. Choose a memorable name for the client VM. Select Windows 11 Pro and any available processor for the Image and size. Also choose a memorable username/password for the Administrator account.
 </p>
 <p>
   <img width="958" height="436" alt="Screenshot 2026-10-05 211615" src="https://github.com/user-attachments/assets/b8b1b580-7b27-4ed0-86e2-c5dac9b19c3a" />
@@ -102,7 +108,7 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
   <img width="959" height="438" alt="Screenshot 2026-10-05 212412" src="https://github.com/user-attachments/assets/4124644c-b62f-49b5-8d14-a80b58618a78" />
 </p>
 <p>
-  14. Now we need to make the private IP address remain static. Click on the Domain Controller on the VM page
+  14. Now we will configure the Server's private IP address to remain static. Click on the Domain Controller on the VM page
 </p>
 <p>
   <img width="958" height="438" alt="Screenshot 2026-10-05 212713" src="https://github.com/user-attachments/assets/797f8a7c-7648-42e9-95f8-6b71a4ba4e0f" />
@@ -126,7 +132,7 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
   <img width="959" height="440" alt="Screenshot 2026-10-05 212921" src="https://github.com/user-attachments/assets/12684dba-7d96-4a54-ab50-104b078a603b" />
 </p>
 <p>
-  18. Click on the static bubble under Private IP address settings and click Save. We will use the Domain Controller as the client's DNS server. A server with a static, private IP address will retain the same address, so we will not have to update the client's DNS server address every time the server's address changes (as it would when restarting a server configured with dynamic IP addressing). Copy the private IP address but do not edit it.
+  18. Click on the static bubble under Private IP address settings and click Save. We will use the Domain Controller IP address as the client's DNS server. A server with a static, private IP address will retain the same address, so we will not have to update the client's DNS server address every time the server's address changes -as it would when restarting a server configured with dynamic IP addressing. Copy the private IP address but do not edit it.
 </p>
 <p>
   <img width="958" height="437" alt="Screenshot 2026-10-05 213103" src="https://github.com/user-attachments/assets/29419d4e-3674-468d-a273-cb723f39b158" />
@@ -178,12 +184,14 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
   <img width="833" height="496" alt="Screenshot 2026-10-09 171540" src="https://github.com/user-attachments/assets/dc3f21f2-a294-4009-9280-7e964977a700" />
 </p>
 <p>
-  26-27. Click Next on the first 2 steps and select your server name on the Server Selection tab. Click Next.
+  26. Click Next on the first 2 steps. 
 </p>
 <br />
 <p>
   <img width="830" height="482" alt="Screenshot 2026-10-09 171557" src="https://github.com/user-attachments/assets/a8014d7f-600d-487e-a907-6ab714be7341" />
 </p>
+<p>
+  27. Select your server name on the Server Selection tab. Click Next.
 <p>
   <img width="361" height="256" alt="Screenshot 2026-10-09 171618" src="https://github.com/user-attachments/assets/3e79e8c3-4684-47d7-af95-bb789076383e" />
 </p>
@@ -272,7 +280,7 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
 </p>
 <br />
 <p>
-  Any authorized user can access the server from any client after it has been added to the domain. This concludes the tutorial.
+  With Active Directory services any authorized user can access the server from any client provided that it has been added to the domain. This concludes the tutorial.
 </p>
 <br />
 
