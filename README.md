@@ -10,6 +10,7 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
 <h2>Operating Systems Used </h2>
 
 -Windows Server 2022 Datacenter: Azure Edition Hotpatch
+
 -Windows 11 Pro, version 25H2
 
 <h2>List of Prerequisites</h2>
