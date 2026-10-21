@@ -164,11 +164,11 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
   <img width="953" height="461" alt="Screenshot 2026-10-05 220302" src="https://github.com/user-attachments/assets/d13863ae-8f1e-46d1-97b8-4bb53514a926" />
 </p>
 <p>
-  23.Search for Remote Desktop Connection on the Windows Start menu and run the program.
+  23. Search for Remote Desktop Connection on the Windows Start menu and run the program.
 </p>
 <br />
 <p>
-  <img width="302" height="368" alt="Screenshot 2026-10-19 142926" src="https://github.com/user-attachments/assets/698bdab1-40ef-4ce9-9ef4-f7c82c4ee7fc" />
+  <img width="302" height="367" alt="Screenshot 2026-10-21 084838" src="https://github.com/user-attachments/assets/855b623b-cca0-4b76-8648-67767daeb638" />
 </p>
 <p>
   24. On the Remote Desktop Connection app, click on More options and paste the IP address as the Computer name. Enter the same username you used as the Administrator account for the Domain Controller. Click Connect and enter the password when prompted.
@@ -248,10 +248,10 @@ This tutorial outlines the prerequisites and installation of Active Directory Se
 </p>
 <br />
 <p>
-  <img width="303" height="368" alt="Screenshot 2026-10-09 094136" src="https://github.com/user-attachments/assets/65e4fa2e-4c16-458f-a8ed-b32227ed5273" />
+  <img width="302" height="368" alt="Screenshot 2026-10-21 085017" src="https://github.com/user-attachments/assets/ef855254-96d2-455b-982d-8319f3b5e90d" />
 </p>
 <p>
-  37. Use Remote Desktop Connection on your Personal Computer to connect to the client and use the administrator username/password created earlier.
+  37. Copy the Client's public IP address from the VM page and use Remote Desktop Connection on your Personal Computer to connect to the client. Use the administrator username/password created earlier.
 </p>
 <br />
 <p>
